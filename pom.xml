@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.sw-architect.persistence</groupId>
+    <artifactId>spring-boot-jpa-seminar</artifactId>
+    <version>0.1.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>UnidirectionalOneToMany</module>
+        <module>UnidirectionalManyToOne</module>
+        <module>BidirectionalOneToMany</module>
+        <module>BidirectionalManyToMany</module>
+        <module>ListVsSet</module>
+        <module>HelperMethod</module>
+        <module>NPlus1Problem</module>
+        <module>DirectFetching</module>
+        <module>ReadOnlyQueries</module>
+        <module>PopulatingChildViaProxy</module>
+        <module>AttributeLazyLoadingBasic</module>
+        <module>JacksonHibernate5Module</module>
+        <module>HintPassDistinctThrough</module>
+        <module>AutoGeneratorType</module>
+        <module>HiLo</module>
+        <module>Pooled</module>
+        <module>PooledLo</module>
+        <module>CompositeKeyEmbeddable</module>
+        <module>CompositeKeyIdClass</module>
+    </modules>
+</project>
